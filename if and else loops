@@ -1,0 +1,172 @@
+/*#include <stdio.h>
+
+int main() {
+    int a,b,sum;
+    int*ptr=&a;
+    int*ptrr=&b;
+    
+    printf("Enter two number: ");
+    scanf("%d %d",&a,&b);
+    
+    sum=*ptr+*ptrr;
+    printf("%d",sum);
+    
+    return 0;
+}*/
+/*#include<stdio.h>
+int main() {
+    int a,b;
+    char oper;
+    
+    printf("Enter a value of a: ");
+    scanf("%d",&a);
+    printf("enter a value of b: ");
+    scanf("%d",&b);
+    printf("enter operator: ");
+    scanf(" %c",&oper);
+    
+    switch(oper) {
+        case '+': printf("%d",a+b);
+        break;
+        case '-': printf("%d",a-b);
+        break;
+        case '*': printf("%d",a*b);
+        break;
+        case '/': printf("%d",a/b);
+        break;
+        case '%': printf("%d",a%b);
+        break;
+        case '^': printf("%d",a^b);
+        break;
+        default : printf("invalid operat0r");
+        }
+        return 0;
+}*/
+/*#include<stdio.h>
+int main() {
+    int i,j,rows;
+    printf("Enter number of rows: ");
+    scanf("%d",&rows);
+    
+    for(i=1;i<=rows;++i) {
+        for (j=1;j<=i;j++) {
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+    return 0;
+}*/
+/*#include<stdio.h>
+#include<math.h>
+int main(){
+    int a,b,c; 
+    double discrimanant,root1,root2,realpart,imaginarypart;
+    printf("enter value of a: ");
+    scanf("%d",&a);
+    printf("Enter value of b: ");
+    scanf("%d",&b);
+    printf("Enter value of c: ");
+    scanf("%d",&c);
+    
+    discrimanant = b*b-4*a*c;
+    
+    if(discrimanant>0) {
+        root1= (-b+ sqrt(discrimanant)) /(2*a);
+        root2= (-b-sqrt(discrimanant)) /(2*a);
+        printf("root1=%0.2lf root2=%0.2lf",root1,root2);
+    }
+    else if(discrimanant==0) {
+        root1=root2=-b/(2*a);
+        printf("root1=%0.2lf root2=%0.2lf",root1,root2);
+    }
+    else {
+        realpart = -b/(2*a);
+        imaginarypart = sqrt(discrimanant) / (2*a);
+        printf("realpart=%0.2lf",realpart);
+        printf("Imaginarypart=%0.2lf",imaginarypart);
+    }
+    return 0;
+}*/
+/*#include<stdio.h>
+int main()
+{
+    int a,fact=1,i;
+    printf("enter value of a: ");
+    scanf("%d",&a);
+    
+    for(i=1;i<=a;i++) {
+        fact=fact*i;
+    }
+    printf("factorial=%d",fact);
+    return 0;
+}*/
+/*#include<stdio.h>
+int main() {
+    int a,b,c;
+    printf("Enter value of a: ");
+    scanf("%d",&a);
+    printf("Enter value of b: ");
+    scanf("%d",&b);
+    printf("Enter value of c: ");
+    scanf("%d",&c);
+    
+    if(a>b&&a>c) {
+        printf("%d is greater than the %d,%d",a,b,c);
+    }
+    else if(b>c&&b>a) {
+        printf("%d is greater than the %d,%d",b,c,a);
+    }
+    else {
+        printf("%d is greater than the %d,%d",c,a,b);
+    }
+    return 0;
+}*/
+/*#include<stdio.h>
+int main()
+{
+    int year;
+    printf("Enter a year: ");
+    scanf("%d",&year);
+    
+    if(year%400==0){
+        printf("%d is a Leap year",year);
+    }
+    else if(year%100==0) {
+        printf("%d is a Leap year",year);
+    }
+    else if(year%4==0) {
+        printf("%d is aLeap year",year);
+    }
+    else {
+        printf("%d is a Non Leap Year",year);
+    }
+    return 0;
+}*/
+/*#include<stdio.h>
+int main(){
+    int i,j,rows;
+    printf("enter number of rows: ");
+    scanf("%d",&rows);
+    
+    for(i=1;i<=rows;i++) {
+        for(j=1;j<=i;j++) {
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+    return 0;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
